@@ -1,4 +1,4 @@
-FROM node:14 as client
+FROM node:16 as client
 
 WORKDIR /app/client
 
