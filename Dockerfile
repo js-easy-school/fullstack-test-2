@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 # Этап для сборки клиентского приложения
-FROM node:14 as client
-=======
 FROM node:16 as client
->>>>>>> 20ddbca46a984efee8b2179f180fb31240f4f2cd
 
 # Устанавливаем рабочую директорию для клиентского приложения
 WORKDIR /app/client
