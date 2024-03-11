@@ -46,5 +46,3 @@ EXPOSE 8080
 
 # Команда для запуска серверного приложения
 CMD ["cross-env", "NODE_ENV=production", "node", "app.js"]
-
-
